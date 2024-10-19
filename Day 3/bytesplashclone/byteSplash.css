@@ -1,0 +1,250 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding-left: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.logo {
+  padding: 5px;
+}
+.logo img {
+  max-height: 30px;
+  width: auto;
+  justify-content: center;
+}
+.logo p {
+  font-size: small;
+  font-weight: 600;
+  margin: 0;
+  color: #a3a4a4;
+}
+ul {
+  max-height: 30px;
+  width: 100%;
+  margin: auto;
+  margin-right: 250px;
+
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  font-weight: bolder;
+  color: #006dbc;
+  font-size: small;
+  padding: 5px;
+  margin: 20px;
+  transition: all 0.3s ease;
+}
+ul li:hover {
+  border: 1px solid #006dbc;
+  background-color: #006dbc;
+  color: white;
+  border-radius: 3px;
+}
+.icon:hover {
+  border: 1px solid #006dbc;
+  background-color: #006dbc;
+  color: white;
+  border-radius: 3px;
+  fill: white;
+}
+.maindiv {
+  background-color: white;
+  display: flex;
+  max-height: 370px;
+  margin-top: 2px;
+}
+.maindiv img {
+  max-height: 300px;
+  justify-content: center;
+}
+.student-img {
+  padding: 20px;
+
+  flex: 1;
+}
+.student-des {
+  padding: 20px;
+  flex: 3;
+}
+.student-des p {
+  font-size: small;
+  font-weight: 400;
+  color: #a3a4a4;
+}
+.student-des p a {
+  text-decoration: none;
+  color: #006dbc;
+  font-weight: bold;
+}
+#button {
+  font-size: smaller;
+  color: white;
+  background-color: #006dbc;
+  border: 1px solid #006dbc;
+  padding: 10px 15px 10px 15px;
+}
+#courses {
+  font-size: medium;
+}
+.certi-div {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#certi {
+  display: flex;
+  justify-content: center;
+}
+
+#para {
+  display: flex;
+  justify-content: center;
+}
+#para button {
+  margin-left: 10px;
+  background-color: #006dbc;
+  color: white;
+  border: 1px solid #006dbc;
+  padding: 1px 7px 1px 7px;
+  border-radius: 5px;
+}
+.blue-div {
+  display: flex;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.first-blue,
+.second-blue {
+  height: 400px;
+  text-align: center;
+  flex: 1;
+  border-radius: 10px;
+  background-color: #006dbc;
+  color: white;
+  margin: 15px;
+  padding: 30px;
+}
+.first-blue ol {
+  list-style: circle;
+}
+.first-blue ol li {
+  padding: 5px;
+  margin: 10px;
+  list-style: circle;
+  color: white;
+}
+.arrow {
+  display: flex;
+}
+.arrow-des {
+  flex: 3;
+}
+.arrow-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex: 1;
+}
+.arrow-logo svg {
+  border-radius: 10px;
+  background-color: white;
+  padding: auto;
+  justify-content: center;
+}
+.form {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.form h4 {
+  color: #006dbc;
+}
+.form input {
+  margin: 10px;
+  width: 350px;
+  padding: 10px;
+}
+.form-number {
+  display: flex;
+  width: 380px;
+  margin-left: 20px;
+}
+.form-number select {
+  flex: 1;
+  height: 40px;
+  margin-top: 10px;
+}
+.form-number input {
+  flex: 8;
+}
+.last-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 330px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.box img {
+  display: flex;
+  justify-content: center;
+  width: 70px;
+}
+.box p {
+  font-size: small;
+}
+.pic {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+.quote {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.footer {
+  background-color: #006dbc;
+  margin: 0;
+}
+.f1 ul,
+.f2 ul {
+  margin: 5px;
+  list-style: none;
+}
+.f1 ul li,
+.f2 ul li {
+  font-size: medium;
+  color: white;
+}
+.f1 ul li:hover,
+.f2 ul li:hover {
+  font-size: medium;
+  color: #006dbc;
+  background-color: white;
+}
+.f3 {
+  margin: 5px;
+  text-align: center;
+  font-size: large;
+  color: white;
+  margin-left: 70px;
+}

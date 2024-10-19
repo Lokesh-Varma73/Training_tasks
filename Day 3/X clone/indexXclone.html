@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in to X</title>
+    <link rel="stylesheet" href="xclone.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="logo">
+                <g>
+                    <path
+                        d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                    </path>
+                </g>
+            </svg>
+            <h1>Sign in to X</h1>
+            <button class="login-btn google">
+                <a href="https://help.x.com/en/managing-your-account/sso" target="_blank"
+                    style="text-decoration: none; color: inherit; display: flex; align-items: center;">
+                    <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google logo">
+                    Sign in with Google
+                </a>
+            </button>
+            <button class="login-btn apple">
+                <a href="https://discussions.apple.com/thread/255588763?sortBy=rank" target="_blank"
+                    style="text-decoration: none; color: inherit; display: flex; align-items: center;">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" class="apple-logo">
+                        <g>
+                            <path
+                                d="M16.365 1.43c0 1.14-.493 2.27-1.177 3.08-.744.9-1.99 1.57-2.987 1.57-.12 0-.23-.02-.3-.03-.01-.06-.04-.22-.04-.39 0-1.15.572-2.27 1.206-2.98.804-.94 2.142-1.64 3.248-1.68.03.13.05.28.05.43zm4.565 15.71c-.03.07-.463 1.58-1.518 3.12-.945 1.34-1.94 2.71-3.43 2.71-1.517 0-1.9-.88-3.63-.88-1.698 0-2.302.91-3.67.91-1.377 0-2.332-1.26-3.428-2.8-1.287-1.82-2.323-4.63-2.323-7.28 0-4.28 2.797-6.55 5.552-6.55 1.448 0 2.675.95 3.6.95.865 0 2.222-1.01 3.902-1.01.613 0 2.886.06 4.374 2.19-.13.09-2.383 1.37-2.383 4.19 0 3.26 2.854 4.42 2.955 4.45z">
+                            </path>
+                        </g>
+                    </svg>
+                    Sign in with Apple
+                </a>
+            </button>
+
+            <div class="divider">
+                <span>or</span>
+            </div>
+            <input type="text" placeholder="Phone, email, or username" class="input-field" required>
+
+            <button class="next-btn">Next</button>
+            <button class="forgot-password"><a href="https://help.x.com/en/managing-your-account/forgotten-or-lost-password-reset"  target="_blank">Forgot password?</a></button>
+            <p class="sign-up">Don't have an account? <a href="https://communitynotes.x.com/guide/en/contributing/signing-up"  target="_blank">Sign up</a></p>
+        </div>
+    </div>
+</body>
+<scrip src="xclone.js"></scrip>
+
+</html>
