@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <p>Of course, all submitted information is kept in the strictest confidence.<br>
+        You always retain control of your information with D.W. Simpson & Co.<br>
+        <strong>Our services are always at no cost to you.</strong>
+    </p>
+    <form>
+        <table>
+            <label for="firstname">First name:</label>
+            <input required type="text" id="firstname" name="firstname"><br><br>
+            <label for="address">Address:</label>
+            <input required type="text" id="address" name="address"><br><br>
+            <label for="city">City:</label>
+            <input required type="text" id="city" name="city"><br><br>
+            <label for="state">State/Province:</label>
+            <input required type="text" id="state" name="state"><br><br>
+            <label for="zip">Zip code:</label>
+            <input required type="text" id="zip" name="zip"><br><br>
+            <label for="Country">country:</label>
+            <input required type="text" id="country" name="country"><br><br>
+            <label for="phone_home">Phone (H):</label>
+            <input type="text" id="phone_home" name="phone_home"><br><br>
+            <label for="fax">Fax:</label>
+            <input type="text" id="fax" name="fax"><br><br>
+            <label for="phone_work">Phone (W):</label></td>
+            <input type="text" id="phone_work" name="phone_work"><br><br>
+            <label for="email">Email:</label></td>
+            <input type="email" id="email" name="email" required><br></br>
+            <label for="company">Company Name:</label></td>
+            <input type="text" id="company" name="company"><br><br>
+            <td><label for="region">Desired Region:</label></td>
+            <td>
+                <input type="text" id="region" name="region">
+                <input type="text" id="other_region" name="other_region" placeholder="Other (Specify)">
+            </td>
+            </tr>
+        </table>
+
+        <fieldset>
+            <legend>Professional Designations Earned</legend>
+            <table>
+                <tr>
+                    <td><input type="checkbox" name="designation" value="College Student"> College Student</td>
+                    <td><input type="checkbox" name="designation" value="Actuarial Student"> Actuarial Student</td>
+                    <td><input type="checkbox" name="designation" value="ACAS"> ACAS</td>
+                    <td><input type="checkbox" name="designation" value="FCAS"> FCAS</td>
+                    <td><input type="checkbox" name="designation" value="ASA"> ASA</td>
+                </tr>
+                <tr>
+
+                    <td><input type="checkbox" name="designation" value="FSA"> FSA</td>
+                    <td><input type="checkbox" name="designation" value="EA"> EA</td>
+                    <td><input type="checkbox" name="designation" value="CFA"> CFA</td>
+                    <td><input type="checkbox" name="designation" value="MBA"> MBA</td>
+                    <td><input type="checkbox" name="designation" value="MAAA"> MAAA</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="designation" value="FIA"> FIA</td>
+                    <td><input type="checkbox" name="designation" value="FCIA"> FCIA</td>
+                    <td><input type="checkbox" name="designation" value="FIAA"> FIAA</td>
+                    <td><input type="checkbox" name="designation" value="Financial Engineer"> Financial Engineer</td>
+                    <td><input type="checkbox" name="designation" value="MS"> M.S.</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="designation" value="PhD"> Ph.D.</td>
+                    <td><input type="checkbox" name="designation" value="Data Mining"> Data Mining</td>
+                    <td><input type="checkbox" name="designation" value="Quant"> Quant</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <label for="other_designation">Other Designations:</label>
+                        <input type="text" id="other_designation" name="other_designation">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

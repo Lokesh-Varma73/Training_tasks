@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        table {
+            width: 50%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            text-align: center;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 5px;
+        }
+
+        input[type="submit"] {
+            width: auto;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align:center;">Registration Form</h1>
+    <form>
+        <table border="1px">
+            <tbody>
+                <tr>
+                    <td>Student Name</td>
+                    <td><input type="text" name="student_name" required /></td>
+                </tr>
+                <tr>
+                    <td>Father's Name</td>
+                    <td><input type="text" name="father_name" required /></td>
+                </tr>
+                <tr>
+                    <td>Mother's Name</td>
+                    <td><input type="text" name="mother_name" required /></td>
+                </tr>
+                <tr>
+                    <td>DOB</td>
+                    <td><input type="date" name="dob" required /> </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <label><input name="gender" type="radio" value="male" required /> Male</label>
+                        <label><input name="gender" type="radio" value="female" required /> Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" name="email" required /></td>
+                </tr>
+                <tr>
+                    <td>Mobile Number</td>
+                    <td><input type="tel" name="mobile_number" required /></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><textarea name="address" rows="4" required></textarea></td>
+                </tr>
+                <tr>
+                    <td>State</td>
+                    <td><input type="text" name="state" required /> </td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td><input type="text" name="city" required /> </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:center;">
+                        <input type="submit" value="Submit" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>
